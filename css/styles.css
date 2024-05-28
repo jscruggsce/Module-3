@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    text-align: center;
+    font-size: 1.75em;
+    margin-bottom: 30px;
+}
+
+section{
+    width: 100%;
+    background-color:crimson;
+}
+
+#food-options{
+    text-align: right;
+    border: 2px solid white;
+}
+
+p{
+    width: 90%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1em;
+}
+
+div{
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#Appetizers{
+    background-color: gold;
+    border: 1px solid black;
+    font-size: 1.25em;
+}
+
+#Entrees{
+    background-color:chocolate;
+    border: 1px solid black;
+    font-size: 1.25em;
+}
+
+#Desert{
+    background-color:lightsalmon;
+    border: 1px solid black;
+    font-size: 1.25em;
+}
+
+
+/*Large Devices*/
+@media(min-width: 992px){
+    .col-lg-4, .col-lg-6, .col-lg-12 {
+        float: left;
+    }
+    .col-lg-4{
+        width: 33%;
+    }
+}
+
+
+/*Medium Devices*/
+@media(min-width: 767px) and (max-width: 992px){
+    .col-md-4, .col-md-6, .col-md-12 {
+        float: left;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}
+
+/*Small Devices*/
+@media(max-width: 767px){
+    .col-sm-4, .col-sm-6, .col-sm-12 {
+        float: left;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+}
